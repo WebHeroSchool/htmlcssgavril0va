@@ -33,12 +33,13 @@ body {
 
 .logo__circle_color_dark-blue {
   background: #0056EC;
-  top: 56%;
-  left: 8px;
+
 }
 
 .logo__circle_color_blue {
   background: #C8DBFB;
+  top: 65%;
+  left: 8px;
 }
 
 
