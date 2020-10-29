@@ -8,21 +8,43 @@ body {
 }
 
 .header {
+    padding: 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-  padding: 40px 0;
-  font-family: 'PT Serif', serif;
-  font-size: 24px;
+  position: relative;
+  padding-left: 44px;
+  font: 700 24px/32px pt_serifbold, arial, helvetica, sans-serif;
 }
+
+.logo__circle {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top:50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  top: 56%;
+  left: 8px;
+}
+
+.logo__circle_color_blue {
+  background: #C8DBFB;
+}
+
 
 .menu__item {
   padding: 0 13px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
 }
 
 .menu__item:last-child {
@@ -40,17 +62,15 @@ body {
 }
 
 .main-content__title {
-  font-family: 'PT Serif', serif;
-  font-size: 66px;
+  font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main-content__description {
   width: 455px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px;
+  font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
 }
 
 .main-content__button {
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
 }
