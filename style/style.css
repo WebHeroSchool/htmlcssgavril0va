@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 140px;
 }
 
 .logo {
@@ -86,26 +87,39 @@ body {
   opacity: 1;
 }
 
-.main-section {
-  padding: 130px 0;
-  display: flex;
-  justify-content: space-between;
+.main {
+  padding: 60px 63% 150px 0  ;
+  background: top right no-repeat url(../img/image.svg);
 }
 
-.main-content {
-  width: 576px;
-}
-
-.main-content__title {
+.main__title {
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0 0 40px;
 }
 
-.main-content__description {
-  width: 455px;
+.main__title-text_higlight {
+  background: #ECF3FF;
+}
+
+.main__description {
   font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
+  margin: 0 0 40px;
+  width: 80%;
 }
 
-.main-content__button {
-  font-size: 18px;
+.main__btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
   font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+  padding: 18px 21px;
+  background: #0056EC;
+  border-radius: 4px;
+  border: 2px solid #0056EC;
+  transition: color .2s, background .5s;
+}
+
+.main__btn:hover {
+  color: #0056EC;
+  background: #fff;
 }
