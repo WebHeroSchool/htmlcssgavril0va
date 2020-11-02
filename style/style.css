@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 140px;
+    margin-bottom: 130px;
 }
 
 .logo {
@@ -45,14 +45,14 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 24px;
+  margin-right: 23px;
   font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
 }
 
-.menu__item:last-child {
-  margin-right: 0;
+ .menu__item:last-child {
+  margin-right: 9px;
 }
 
 .menu__item::after {
@@ -88,7 +88,7 @@ body {
 }
 
 .main {
-  padding: 60px 63% 150px 0  ;
+  padding: 72px 63% 150px 0;
   background: top right no-repeat url(../img/image.svg);
 }
 
