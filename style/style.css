@@ -115,7 +115,7 @@ body {
   background: #0056ec;
   border-radius: 4px;
   border: 2px solid #0056ec;
-  transition: color .2s, background .5s;
+  transition: color 0.2s, background 0.5s;
 }
 
 .main__btn:hover {
