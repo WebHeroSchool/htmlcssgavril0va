@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 130px;
+  margin-bottom: 128px;
 }
 
 .logo {
@@ -86,14 +86,20 @@ body {
   opacity: 1;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .main {
-  padding: 72px 63% 150px 0;
-  background: top right no-repeat url(../img/image.svg);
+  padding: 75px 65% 133px 0px;
+  margin-right: 4px;
+  background: top right/contain no-repeat url(../img/image.svg);
 }
 
 .main__title {
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
   margin: 0 0 40px;
+  width: 567px;
 }
 
 .main__title-text_higlight {
@@ -103,7 +109,7 @@ body {
 .main__description {
   font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
   margin: 0 0 40px;
-  width: 80%;
+  width: 455px;
 }
 
 .main__btn {
