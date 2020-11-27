@@ -1,4 +1,4 @@
-@media (max-width: 1764px) {
+@media (max-width:1764px) {
   .wrapper {
     width: 68%;
   }
@@ -48,7 +48,7 @@
   }
 }
 
-  @media (max-width: 980px) {
+  @media (max-width:980px) {
   .main {
     padding: 0 40% 0 0;
   }
@@ -114,7 +114,6 @@
     margin: 27px auto;
     font: 400 16px/19px robotoregular, arial, helvetica, sans-serif;
   }
-
 }
 
 @media (max-width: 450px) {

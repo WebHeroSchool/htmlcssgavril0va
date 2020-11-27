@@ -6,7 +6,8 @@
   height: 32px;
 }
 
-.close::before, .close::after {
+.close::before,
+.close::after {
   position: absolute;
   left: 15px;
   content: ' ';
