@@ -147,15 +147,15 @@ body {
 }
 
  @keyframes slideme {
-0% {
-  left: -50px;
-}
+  0% {
+    left: -50px;
+  }
 
-30% {
-  left: 110%;
-}
+  30% {
+    left: 110%;
+  }
 
-100% {
-  left: 110%;
-}
+  100% {
+    left: 110%;
+  }
 }
