@@ -146,7 +146,7 @@ body {
   animation: slideme 4s infinite;
 }
 
- @keyframes slideme {
+@keyframes slideme {
   0% {
     left: -50px;
   }
