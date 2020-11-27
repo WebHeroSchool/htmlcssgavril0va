@@ -6,7 +6,7 @@
   height: 32px;
 }
 
-.close:before, .close:after {
+.close::before, .close::after {
   position: absolute;
   left: 15px;
   content: ' ';
@@ -14,10 +14,12 @@
   width: 3px;
   background-color: #0056ec;
 }
-.close:before {
+
+.close::before {
   transform: rotate(45deg);
 }
-.close:after {
+
+.close::after {
   transform: rotate(-45deg);
 }
 
@@ -26,10 +28,10 @@
 }
 
 .mobile-menu__item {
-    font: 500 30px/35px robotomedium, arial, helvetica, sans-serif;
-    display: block;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    margin-bottom: 26px;
+  font: 500 30px/35px robotomedium, arial, helvetica, sans-serif;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 26px;
 }
