@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 130px;
+  margin-bottom: 128px;
 }
 
 .logo {
@@ -86,14 +86,20 @@ body {
   opacity: 1;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .main {
-  padding: 72px 63% 150px 0;
-  background: top right no-repeat url(../img/image.svg);
+  padding: 75px 65% 133px 0;
+  margin-right: 4px;
+  background: top right/contain no-repeat url(../img/image.svg);
 }
 
 .main__title {
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
   margin: 0 0 40px;
+  width: 567px;
 }
 
 .main__title-text_higlight {
@@ -103,10 +109,12 @@ body {
 .main__description {
   font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
   margin: 0 0 40px;
-  width: 80%;
+  width: 455px;
 }
 
 .main__btn {
+  position: relative;
+  cursor: pointer;
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -121,4 +129,33 @@ body {
 .main__btn:hover {
   color: #0056ec;
   background: #fff;
+}
+
+.main__btn::after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  width: 10px;
+  height: 120%;
+  background: #fff;
+  left: -50px;
+  top: -5px;
+  opacity: 0.8;
+  position: absolute;
+  transform: skewX(-45deg) translateX(0);
+  animation: slideme 4s infinite;
+}
+
+@keyframes slideme {
+  0% {
+    left: -50px;
+  }
+
+  30% {
+    left: 110%;
+  }
+
+  100% {
+    left: 110%;
+  }
 }
